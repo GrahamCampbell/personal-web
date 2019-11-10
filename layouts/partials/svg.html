@@ -1,6 +1,8 @@
 <div class="icon">
   {{if eq .iconName "googlescholar"}}
   <svg width="{{.size}}" height="{{.size}}" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  {{else if eq .iconName "orchid"}}
+  <svg width="{{.size}}" height="{{.size}}" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
   {{else}}
   <svg width="{{.size}}" height="{{.size}}" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
   {{end}}
